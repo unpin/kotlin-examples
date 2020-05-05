@@ -1,3 +1,5 @@
+package specialclasses
+
 import java.util.Random
 
 open class Device(var name: String)

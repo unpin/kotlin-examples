@@ -1,3 +1,5 @@
+package introduction
+
 fun describeString(maybeString: String?): String {
     if (maybeString != null && maybeString.length > 0) {
         return "String of length is ${maybeString.length}"

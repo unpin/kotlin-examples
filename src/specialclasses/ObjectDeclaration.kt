@@ -1,3 +1,5 @@
+package specialclasses
+
 object DoAuth {
     fun takeParams(username: String, password: String) {
         println("input Auth parameters = $username:$password")

@@ -1,3 +1,5 @@
+package specialclasses
+
 enum class State {
     IDLE, RUNNING, FINISHED
 }

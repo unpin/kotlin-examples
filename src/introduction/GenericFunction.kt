@@ -1,6 +1,6 @@
-package me.kotlin
+package introduction
 
-import me.kotlin.MutableStack
+import introduction.MutableStack
 
 fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
 

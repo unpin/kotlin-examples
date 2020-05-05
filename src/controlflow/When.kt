@@ -1,3 +1,5 @@
+package controlflow
+
 fun main() {
     cases("Hello")
     cases(1)
@@ -19,13 +21,12 @@ fun cases(obj: Any) {
 }
 
 fun whenAssign(obj: Any): Any {
-    val result = when (obj) {
+    return when (obj) {
         1 -> "one"
         "Hello" -> 1
         is Long -> false
         else -> 42
     }
-    return result
 }
 
 class MyClass

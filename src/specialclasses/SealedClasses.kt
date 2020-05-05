@@ -1,3 +1,5 @@
+package specialclasses
+
 sealed class Mammal(val name: String)
 
 class Cat(val catName: String) : Mammal(catName)

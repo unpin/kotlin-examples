@@ -1,3 +1,5 @@
+package controlflow
+
 fun main() {
     println(max(99, -42))
 }
